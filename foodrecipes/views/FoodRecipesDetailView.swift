@@ -15,7 +15,7 @@ struct FoodRecipesDetailView: View {
         ScrollView {
             VStack(alignment: .leading) {
                 FoodsImageVIew(url: URL(string: food.image)!)
-                Text("Receips : ")
+                Text("Recipe : ")
                     .font(.title)
                     .padding()
                 Text(food.desc)

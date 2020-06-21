@@ -27,7 +27,7 @@ struct FoodRecipesListView: View {
         
         switch viewModel.state {
         case .idle:
-            return Text("sabar gaes").eraseToAnyView()
+           return spinner.eraseToAnyView()
         case .loading:
             return spinner.eraseToAnyView()
         case .error(let error):
