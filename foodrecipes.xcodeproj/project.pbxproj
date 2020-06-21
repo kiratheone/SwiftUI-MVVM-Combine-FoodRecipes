@@ -52,7 +52,7 @@
 		07328B62247100A5004697D0 /* foodrecipes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = foodrecipes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		07328B65247100A5004697D0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		07328B67247100A5004697D0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		07328B69247100A5004697D0 /* FoodRecipesListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FoodRecipesListView.swift; path = "New Group/FoodRecipesListView.swift"; sourceTree = "<group>"; };
+		07328B69247100A5004697D0 /* FoodRecipesListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodRecipesListView.swift; sourceTree = "<group>"; };
 		07328B6B247100A7004697D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		07328B6E247100A7004697D0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		07328B71247100A7004697D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };

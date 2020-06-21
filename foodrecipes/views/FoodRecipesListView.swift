@@ -48,7 +48,7 @@ struct ListView: View{
         List(listFood) { food in
             NavigationLink(destination: FoodRecipesDetailView(food: food)){
                 ItemView(model: food)
-            }.navigationBarTitle("Food Recieps")
+            }.navigationBarTitle("Food Recipes")
         }
         .navigationBarItems(trailing: NavigationLink(destination: AboutView()) {
             Text("About")
