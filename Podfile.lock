@@ -1,0 +1,115 @@
+PODS:
+  - MaterialComponents/AnimationTiming (109.8.0)
+  - MaterialComponents/AppBar (109.8.0):
+    - MaterialComponents/FlexibleHeader
+    - MaterialComponents/HeaderStackView
+    - MaterialComponents/NavigationBar
+    - MaterialComponents/private/Application
+    - MaterialComponents/private/Icons/ic_arrow_back
+    - MaterialComponents/private/UIMetrics
+    - MaterialComponents/ShadowElevations
+    - MaterialComponents/ShadowLayer
+    - MaterialComponents/Typography
+    - MDFInternationalization
+  - MaterialComponents/Availability (109.8.0)
+  - MaterialComponents/ButtonBar (109.8.0):
+    - MaterialComponents/Buttons
+    - MaterialComponents/private/Application
+    - MDFInternationalization
+  - MaterialComponents/Buttons (109.8.0):
+    - MaterialComponents/Elevation
+    - MaterialComponents/Ink
+    - MaterialComponents/private/Math
+    - MaterialComponents/Ripple
+    - MaterialComponents/ShadowElevations
+    - MaterialComponents/ShadowLayer
+    - MaterialComponents/ShapeLibrary
+    - MaterialComponents/Shapes
+    - MaterialComponents/Typography
+    - MDFInternationalization
+    - MDFTextAccessibility
+  - MaterialComponents/Elevation (109.8.0):
+    - MaterialComponents/Availability
+    - MaterialComponents/private/Color
+    - MaterialComponents/private/Math
+  - MaterialComponents/FlexibleHeader (109.8.0):
+    - MaterialComponents/Availability
+    - MaterialComponents/Elevation
+    - "MaterialComponents/FlexibleHeader+ShiftBehavior"
+    - "MaterialComponents/FlexibleHeader+ShiftBehaviorEnabledWithStatusBar"
+    - MaterialComponents/private/Application
+    - MaterialComponents/private/Math
+    - MaterialComponents/private/UIMetrics
+    - MaterialComponents/ShadowElevations
+    - MaterialComponents/ShadowLayer
+    - MDFTextAccessibility
+  - "MaterialComponents/FlexibleHeader+ShiftBehavior (109.8.0)"
+  - "MaterialComponents/FlexibleHeader+ShiftBehaviorEnabledWithStatusBar (109.8.0)":
+    - "MaterialComponents/FlexibleHeader+ShiftBehavior"
+  - MaterialComponents/HeaderStackView (109.8.0)
+  - MaterialComponents/Ink (109.8.0):
+    - MaterialComponents/Availability
+    - MaterialComponents/private/Color
+    - MaterialComponents/private/Math
+  - MaterialComponents/NavigationBar (109.8.0):
+    - MaterialComponents/ButtonBar
+    - MaterialComponents/Elevation
+    - MaterialComponents/private/Math
+    - MaterialComponents/Typography
+    - MDFInternationalization
+    - MDFTextAccessibility
+  - MaterialComponents/private/Application (109.8.0)
+  - MaterialComponents/private/Color (109.8.0):
+    - MaterialComponents/Availability
+  - MaterialComponents/private/Icons/Base (109.8.0)
+  - MaterialComponents/private/Icons/ic_arrow_back (109.8.0):
+    - MaterialComponents/private/Icons/Base
+  - MaterialComponents/private/Math (109.8.0)
+  - MaterialComponents/private/UIMetrics (109.8.0):
+    - MaterialComponents/private/Application
+  - MaterialComponents/Ripple (109.8.0):
+    - MaterialComponents/AnimationTiming
+    - MaterialComponents/Availability
+    - MaterialComponents/private/Color
+    - MaterialComponents/private/Math
+  - MaterialComponents/ShadowElevations (109.8.0)
+  - MaterialComponents/ShadowLayer (109.8.0):
+    - MaterialComponents/ShadowElevations
+  - MaterialComponents/ShapeLibrary (109.8.0):
+    - MaterialComponents/private/Math
+    - MaterialComponents/Shapes
+  - MaterialComponents/Shapes (109.8.0):
+    - MaterialComponents/private/Color
+    - MaterialComponents/private/Math
+    - MaterialComponents/ShadowLayer
+  - MaterialComponents/Typography (109.8.0):
+    - MaterialComponents/private/Application
+    - MaterialComponents/private/Math
+  - MDFInternationalization (2.0.0)
+  - MDFTextAccessibility (2.0.0)
+  - Resolver (1.1.4)
+  - URLImage (0.9.15)
+
+DEPENDENCIES:
+  - MaterialComponents/AppBar
+  - Resolver
+  - URLImage
+
+SPEC REPOS:
+  trunk:
+    - MaterialComponents
+    - MDFInternationalization
+    - MDFTextAccessibility
+    - Resolver
+    - URLImage
+
+SPEC CHECKSUMS:
+  MaterialComponents: 00df0652f52cd6968b02d531bd2e6956b0f907b8
+  MDFInternationalization: 010097556d6b09d2c4ea38e0820ea6d37be6a314
+  MDFTextAccessibility: 85c09a1bd9c321f494348e632a25063bcda35a53
+  Resolver: 1f4c046255cbadfa97094692e16e940d4329779f
+  URLImage: 1adef9b81f071fc2fc13a1a87ff882c0a694d48b
+
+PODFILE CHECKSUM: 6b7bbd29600506131de099990ad9affa85309baa
+
+COCOAPODS: 1.9.2
